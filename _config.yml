@@ -1,6 +1,6 @@
-title: "Gonkmetrics Blog"
-author: "gonkmetrics"
-description: "Powered by [Github Pages](https://pages.github.com/)" # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+title: "Gonkmetrics' Blog"
+author: "username: gonkmetrics"
+description: "Powered by Github Pages" # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
@@ -20,7 +20,7 @@ github_username: "gonkmetrics"
 #########################################################################################
 theme: "minima"
 
-rss: rss
+# rss: rss
 
 kramdown:
   syntax_highlighter_opts:

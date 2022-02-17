@@ -43,11 +43,7 @@ Normalization/정규화 was also touched upon for 1st and 2nd normalizations. Hi
 
 Additionally some initial setup for this blog was finished:
 
-To start the blog I used 
-
-<a href="https://github.com/chadbaldwin/simple-blog-bootstrap" target="_blank">chadbaldwin</a>
-
-[chadbaldwin](https://github.com/chadbaldwin/simple-blog-bootstrap)
+To start the blog I used [chadbaldwin's](https://github.com/chadbaldwin/simple-blog-bootstrap) template.
 
 Jekyll was the recommended option for building a site with mdl. Ruby was installed straight from RubyInstaller and the ruby directory was added to PATH. Jekyll was then installed:
 
