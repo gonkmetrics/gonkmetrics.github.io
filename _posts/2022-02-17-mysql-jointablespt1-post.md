@@ -4,7 +4,7 @@ MySQL Workbench was used to verify queries before being pasted into the cli.
 
 For this session example tables were joined using the keyword JOIN.
 
-```sql
+```tsql
 --Simple Join Query
 SELECT *
   FROM userTbl INNER JOIN buyTbl
@@ -13,13 +13,13 @@ SELECT *
 
 To create a static alias for the example tables buyTbl and userTbl I used VIEW objects.
 
-```sql
+```tsql
 CREATE VIEW b AS SELECT * FROM buyTbl;
 ```
 
 Further arguments for the JOIN keyword were also reviewed:
 
-```sql
+```tsql
 -- types:
 -- INNER returns only matched records
 SELECT buyTbl.*, userTbl.user_name, userTbl.phone_num, userTbl.addr
