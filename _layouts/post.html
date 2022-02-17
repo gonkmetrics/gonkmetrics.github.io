@@ -17,15 +17,15 @@ layout: default
       {%- endif -%}</p>
   </header>
 
-  <div class="share-links">
+  <!-- <div class="share-links">
     {% include sharelinks.html %}
-  </div>
+  </div> -->
 
   <div class="post-content e-content" itemprop="articleBody">
-    <div style="display: table-cell; vertical-align: middle;">
+    <body style="padding-right: 30px; padding-left: 30px">
     {{ content }}
     {% include navlinks.html %}
-    </div>
+  </body>
   </div>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
