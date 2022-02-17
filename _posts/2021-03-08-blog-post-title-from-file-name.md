@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # mdl-reference
+=======
+## Blog Post Title From First Header
+>>>>>>> 6c663e58fc2f3639f63519e7809173ca8f08315e
 
 Due to a plugin called `jekyll-titles-from-headings` which is supported by GitHub Pages by default. The above header (in the markdown file) will be automatically used as the pages title.
 
