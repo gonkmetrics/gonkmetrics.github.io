@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 ---
 <link href="/css/override.css" rel="stylesheet" type="text/css">
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
@@ -22,8 +22,10 @@ layout: post
   </div>
 
   <div class="post-content e-content" itemprop="articleBody">
+    <div style="display: table-cell; vertical-align: middle;">
     {{ content }}
     {% include navlinks.html %}
+    </div>
   </div>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
