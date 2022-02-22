@@ -1,4 +1,4 @@
-## Basic HTML 1
+## Basic HTML 2
 
 For this session basic HTML was reviewed again.
 
