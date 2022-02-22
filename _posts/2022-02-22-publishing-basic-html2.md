@@ -14,26 +14,26 @@ Lists:
 Lists have syntax <li> and are ordered in DOWNARDS order. Lists can be nested into each other and different kinds of lists can be used within each other.
 
 Ordered Lists present the elements of the list with a number.
-```HTML
+<pre><code class="language-html">
 <ol>
 		<li>application</li>
 		<li>documentents</li>
 		<li>workinterview</li>
 </ol>
-```
+</code></pre>
 
 Unordered Lists present the elements of the list with bullet points. The shape of the bullet points can be specified with argument [type="shape"], with possible options CIRCLE, DISC, SQUARE.
-```HTML
+<pre><code class="language-html">
 <ul type="square">
                     <li>ceo statement</li>
                     <li>ceo about</li>
                     <li>ceo organizational info</li>
                     <li>ceo vision statement</li>
                 </ul>
-```
+</code></pre>
 
 Definition Lists present elements in terms of term/name <dt> and an accompanying description <dd>. They are bookended by <dl>.
-```HTML
+<pre><code class="language-html">
 <dl>
 		<t1>title is tag dt</t1>
 		<dd>definition written with tag dd</dd>
@@ -47,14 +47,14 @@ Definition Lists present elements in terms of term/name <dt> and an accompanying
 		<dd>JSP</dd>
 		<dd>Spring</dd>
 </dl>
-```
+</code></pre>
 
 ---
 
 Tables:
 Tables have syntax <table> and ordered from LEFT to RIGHT, then DOWNWARDS order. <table> defines a table element, followed by columns <tr> and within row elements, column elements <td>. Arguments for table style can also be defined within the <table> tag, such as [border="N"].
 
-```HTML
+<pre><code class="language-html">
 <h2>2 by 3 table</h2>
 <table border="1">
 		<tr>
@@ -68,10 +68,10 @@ Tables have syntax <table> and ordered from LEFT to RIGHT, then DOWNWARDS order.
 				<td>2,3</td>
 		</tr>
 </table>
-```
+</code></pre>
 
 To create columns that span multiple rows or columns, the <th ARGUMENTS> tag is used. A tag only needs to be written once, from the cell location in which the merged cell starts.
-```HTML
+<pre><code class="language-html">
 <tr>
       <td>어린이</td>
       <th colspan="2">보호자 동반시 무료</th>
@@ -81,7 +81,7 @@ To create columns that span multiple rows or columns, the <th ARGUMENTS> tag is 
       <td>1회</td>
       <td>12-14시</td>
 </tr>
-```
+</code></pre>
 
 ---
 
@@ -89,7 +89,7 @@ Forms and Fieldsets:
 Forms can be created using HTML, and are written within the tag <fieldset>, which groups form elements together.
 
 A few such elements are shown below:
-```HTML
+<pre><code class="language-html">
 <fieldset>
 		<legend>user registration</legend>
 		<p>id: <input type="text"/></p>
@@ -111,15 +111,15 @@ A few such elements are shown below:
 				<input type="button" value="save incomplete registration form"/>
 		</p>
 </fieldset>
-```
+</code></pre>
 
 Fieldsets can also include text input elements. Text boxes are created using the following tags. Arguments [cols] and [rows] define the size of the text box.
-```HTML
+<pre><code class="language-html">
 <textarea cols="30" rows="10"></textarea>
-```
+</code></pre>
 
 Dropdown menus/Selections are also <fieldset> elements. Their syntax is similar to that of lists.
-```HTML
+<pre><code class="language-html">
 <select>
 		<optgroup label="markup languages">
 				<option>markdown</option>
@@ -132,10 +132,10 @@ Dropdown menus/Selections are also <fieldset> elements. Their syntax is similar 
 				<option>python</option>
 	 </optgroup>
 </select>
-```
+</code></pre>
 
 Some additional elements introduced in HTML5 include the below.
-```HTML
+<pre><code class="language-html">
 <fieldset>
 		<legend>additional elements</legend>
 		<form>
@@ -146,6 +146,6 @@ Some additional elements introduced in HTML5 include the below.
 				<p>age: <input type="number" min="0" max="150"/></p>
 		</form>
 </fieldset>
-```
+</code></pre>
 
 -gonkgonk
