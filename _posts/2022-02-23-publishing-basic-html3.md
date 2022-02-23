@@ -2,8 +2,8 @@
 
 <head>
   <meta charset="utf-8">
-  <title>highlight.js demo</title>
-	<link rel="alternate stylesheet" title="A 11 Y Light" href="styles/a11y-light.css" disabled="disabled">
+  <title>basichtml3</title>
+	<link rel="stylesheet" title="A 11 Y Light" href="styles/a11y-light.css">
 </head>
 
 For this session basic HTML was reviewed together with the beginnings of CSS.
