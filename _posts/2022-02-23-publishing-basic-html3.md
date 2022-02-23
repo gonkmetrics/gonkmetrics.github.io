@@ -17,10 +17,9 @@ Three distinct concepts were covered:
 ---
 
 Additional Form Tags:
-Lists have syntax <li> and are ordered in DOWNARDS order. Lists can be nested into each other and different kinds of lists can be used within each other.
+There are also various form tags such as "slider", permutations of "date"/"time", and "color". Placeholder values, arguments such as *readonly* and general practice with HTML forms was completed today.
 
-<pre><code class="language-html">
-<!DOCTYPE html>
+<pre><code class="language-plaintext">
 <html>
 <head>
     <style>
@@ -51,7 +50,11 @@ Lists have syntax <li> and are ordered in DOWNARDS order. Lists can be nested in
 ---
 
 Groupings:
-<pre><code class="language-html">
+Groupings, or <div> tags, more generally, is a core concept in HTML. <div> tags do not have any visual effects on the HTML file, but they allow for blocks of text and tags to be assigned a class or id value that can be called. Additionally, tags themselves can be called, as will be seen with CSS below.
+
+A default layout with groupings would be "header" -> "main" -> "footer", but any <div> tags can be assigned any unique values.
+
+<pre><code class="language-plaintext">
 <!DOCTYPE html>
 <html>
 <head>
@@ -99,18 +102,38 @@ Groupings:
 ---
 
 Basic CSS Usage:
+CSS can be incorporated within an HTML file, or outside of it. CSS within the body of an HTML file is referred to as inline CSS, and takes the form of the [style] argument within a tag. CSS can also be written into a <style> tag within the header of an HTML file.
+
+An external CSS file can be linked to an HTML file as a stylesheet, or can be called within the <style> block.
+
 <pre><code class="language-html">
-<ol>
-		<li>application</li>
-		<li>documentents</li>
-		<li>workinterview</li>
-</ol>
+<head>
+    <link rel="stylesheet" href="externalcss.css">
+
+		OR
+		<style>
+        @import url('externalcs.css');
+    </style>
+
+		OR
+		<style>
+        #big-title {background-color: indigo; color:whitesmoke}
+    </style>
+
+		OR
+		<body>
+		    <div style="border:1px solid red">
+		        <div style="color:green">123</div>
+		    </div>
+		</body>
 </code></pre>
 
 ---
 
 CSS Selections:
-<pre><code class="language-html">
+This is where groupings come together with CSS. CSS can be applied to types/tags, to tags with argument [id="name"] referenced by # or [class="name"] referenced by '.'
+
+<pre><code class="language-plaintext">
 <!DOCTYPE html>
 <html>
 <head>
