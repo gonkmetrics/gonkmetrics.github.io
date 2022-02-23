@@ -1,11 +1,5 @@
 ## Basic HTML 3
 
-<head>
-  <meta charset="utf-8">
-  <title>basichtml3</title>
-	<link rel="stylesheet" title="A 11 Y Light" href="styles/a11y-light.css">
-</head>
-
 For this session basic HTML was reviewed together with the beginnings of CSS.
 
 Three distinct concepts were covered:
@@ -106,7 +100,7 @@ CSS can be incorporated within an HTML file, or outside of it. CSS within the bo
 
 An external CSS file can be linked to an HTML file as a stylesheet, or can be called within the <style> block.
 
-<pre><code class="language-html">
+<pre><code class="language-plaintext">
 <head>
     <link rel="stylesheet" href="externalcss.css">
 
@@ -134,7 +128,6 @@ CSS Selections:
 This is where groupings come together with CSS. CSS can be applied to types/tags, to tags with argument [id="name"] referenced by # or [class="name"] referenced by '.'
 
 <pre><code class="language-plaintext">
-<!DOCTYPE html>
 <html>
 <head>
     <style>
