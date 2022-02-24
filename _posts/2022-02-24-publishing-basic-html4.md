@@ -1,6 +1,6 @@
-## Basic HTML 3
+## Basic HTML 4
 
-<img src="_img\jake.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+<img src=".\_img\jake.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
 
 This session was packed with fun times trying to make highlight.js work for this blog, as well as figuring out if whitespaces were coming from block elements or dividers. Anyhow.
 
@@ -14,20 +14,17 @@ Two things were covered:
 Additional CSS Selectors:
 
 Classes, ids, and types can also be relationally selected. Such as selecting everything with [*].
-<pre><code class="language-css">
-  * {color:blue;}
+<pre><code class="language-css">* {color:blue;}
 </code></pre>
 
 Or selecting child types from parent types in the order [PARENT>CHILD]. Note the specificity of the selector, where a selector with a higher specificity takes precedence over a selectors with lower specificity.
-<pre><code class="language-css">
-  p{color:violet;}
+<pre><code class="language-css">p{color:violet;}
 
   ul > li > p{color:green;}
 </code></pre>
 
 Proximity selections for objects ahead or behind a specified object can also be made with [+].
-<pre><code class="language-css">
-  h1 + p {color:blue;}
+<pre><code class="language-css">h1 + p {color:blue;}
 
   p + p {color:purple;}
 </code></pre>
@@ -87,68 +84,12 @@ Combined together, these selections can yield (ugly) results such as these:
 &lt;/html&gt;
 </code></pre>
 
-<pre><code class="language-html">
-<html>
-<head>
-    <style>
-        h1{color:blue}
-        h1 + p{background-color: lightcoral;}
-        /* [id^='content_'] {font-size:5;} */
-        ul {margin-bottom: 0; margin-block-start: 0;}
-        #content_A > ul > li{border-style: solid; color: black; border-color: purple;}
-        #content_B > ul > li{border-style: solid;color: purple; border-color: green;}
-        #content_C > ul > li{border-style: solid;color:pink; border-color: yellow;}
-    </style>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>selectorq1</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <script src='main.js'></script>
-</head>
-<body>
-    <div id="container">
-        <h1>프로그래밍 언어들</h1>
-        <p>프로그래밍 언어들 대해서 <span style="color:lightpink">차근차근</span>...</p>
-        <div id="main">
-            <div id="content_A">
-                <ul>
-                    <li>
-                        <h2>자바</h2>
-                        <span>앱 개발이 모두 됨</span>
-                    </li>
-                </ul>
-            </div>
-            <div id="content_B">
-                <ul>
-                    <li>
-                        <h2>파이썬</h2>
-                        <span>머신러닝 등에 특화</span>
-                    </li>
-                </ul>
-            </div>
-            <div id="content_C">
-                <ul>
-                    <li>
-                        <h2>C++</h2>
-                        <span>게임개발에 특화</span>
-                    </li>
-                </ul>
-                <!-- do not use div class, put class or id on li tag-->
-            </div>
-        </div>    
-    </div>
-</body>
-</html>
-</code></pre>
-
 Selections can also be made from tag properties:
-<pre><code class="language-css">
-  h1[class] {color:blue;}
+<pre><code class="language-css">h1[class] {color:blue;}
 </code></pre>
 
 After selecting an object, virtual selectors can be used for additional effects.
-<pre><code class="language-css">
-/*
+<pre><code class="language-css">/*
 a:hover changes color while being moused over
 */
   a:hover {color:royalblue;}
@@ -167,8 +108,7 @@ etc.
 </code></pre>
 
 There are some additional positional selectors in CSS:
-<pre><code class="language-css">
-.box:after{
+<pre><code class="language-css">.box:after{
     content: "select";
     color: green;
 }
@@ -178,13 +118,11 @@ p {border-bottom: 1px dashed black;}
 </code></pre>
 
 And applying to subobjects without [>], provided the selection is nested within.
-<pre><code class="language-css">
-  .box a:hover{color:gold;}
+<pre><code class="language-css">.box a:hover{color:gold;}
 </code></pre>
 
 Finally, multiple selections:
-<pre><code class="language-css">
-  p, ul {border: 1px solid blue;}
+<pre><code class="language-css">p, ul {border: 1px solid blue;}
 </code></pre>
 
 ---
@@ -192,8 +130,7 @@ Finally, multiple selections:
 Fonts:
 
 Multiple parameters exist to modify fonts in CSS:
-<pre><code class="language-css">
-body {font: 12px , Gulim;}
+<pre><code class="language-css">body {font: 12px , Gulim;}
 h1 {
     font-family: Impact;
     font-size: larger;
@@ -205,38 +142,6 @@ p {
     font: bold italic 15px , Gulim;
     color: chartreuse;
 }
-</code></pre>
-
-Yielding these results:
-<pre><code class="language-html">
-<html>
-<head>
-    <style>
-        body {font: 12px , Gulim;}
-        h1 {
-            font-family: Impact;
-            font-size: larger;
-            font-weight: 200;
-            font-style: italic;
-            color: blue;
-        }
-        p {
-            font: bold italic 15px , Gulim;
-            color: chartreuse;
-        }
-    </style>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
-</head>
-<body>
-    <h1>subsidy</h1>
-    <p>web app development</p>
-</body>
-</html>
 </code></pre>
 
 Finally, fonts can be imported locally or online, if the default font set is not enough.
@@ -269,36 +174,5 @@ Finally, fonts can be imported locally or online, if the default font set is not
 &lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
-
-<pre><code class="language-html">
-<html>
-<head>
-    <style>
-        /* use @import to make a selection of fonts available */
-        @import url('https://fonts.googleapis.com/css2?family=Redressed&family=Roboto:wght@100&display=swap');
-        .rob {
-            font-family: 'Roboto', sans-serif;
-        }
-
-        .arl {
-            font-family: 'Redressed', cursive;
-        }
-    </style>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
-</head>
-<body>
-    <h1 class="rob">roboto</h1>
-    <p class="rob">roboto roboto</p>
-    <h1 class="arl">arial</h1>
-    <p class="arl">arial arial</p>
-</body>
-</html>
-</code></pre>
-
 
 -gonkgonk
