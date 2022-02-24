@@ -13,7 +13,63 @@ Three distinct concepts were covered:
 Additional Form Tags:
 There are also various form tags such as "slider", permutations of "date"/"time", and "color". Placeholder values, arguments such as *readonly* and general practice with HTML forms was completed today.
 
-<pre><code class="nohighlight">
+<pre><code class="xml">
+&lt;html&gt;
+&lt;head&gt;
+    &lt;style&gt;
+        * { margin : 10px }
+    &lt;/style&gt;
+    &lt;meta charset=&apos;utf-8&apos;&gt;
+    &lt;meta http-equiv=&apos;X-UA-Compatible&apos; content=&apos;IE=edge&apos;&gt;
+    &lt;title&gt;formoption3&lt;/title&gt;
+    &lt;meta name=&apos;viewport&apos; content=&apos;width=device-width, initial-scale=1&apos;&gt;
+    &lt;link rel=&apos;stylesheet&apos; type=&apos;text/css&apos; media=&apos;screen&apos; href=&apos;main.css&apos;&gt;
+    &lt;script src=&apos;main.js&apos;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    disabled:
+    &lt;fieldset&gt;
+        &lt;legend&gt;writing here:&lt;/legend&gt;&lt;form&gt;
+            &lt;p&gt;write: &lt;input type=&quot;text&quot; value=&quot;abcd&quot; readonly/&gt;&lt;/p&gt;
+            &lt;p&gt;title: &lt;input type=&quot;text&quot;/&gt;&lt;/p&gt;
+            &lt;textarea cols=&quot;30&quot; rows=&quot;10&quot;&gt;&lt;/textarea&gt;
+            &lt;input type=&quot;submit&quot; value=&quot;ubit&quot;/&gt;
+            &lt;input type=&quot;reset&quot; value=&quot;reset&quot;/&gt;
+        &lt;/form&gt;
+    &lt;/fieldset&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<pre><code class="language-html">
+&lt;html&gt;
+&lt;head&gt;
+    &lt;style&gt;
+        * { margin : 10px }
+    &lt;/style&gt;
+    &lt;meta charset=&apos;utf-8&apos;&gt;
+    &lt;meta http-equiv=&apos;X-UA-Compatible&apos; content=&apos;IE=edge&apos;&gt;
+    &lt;title&gt;formoption3&lt;/title&gt;
+    &lt;meta name=&apos;viewport&apos; content=&apos;width=device-width, initial-scale=1&apos;&gt;
+    &lt;link rel=&apos;stylesheet&apos; type=&apos;text/css&apos; media=&apos;screen&apos; href=&apos;main.css&apos;&gt;
+    &lt;script src=&apos;main.js&apos;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    disabled:
+    &lt;fieldset&gt;
+        &lt;legend&gt;writing here:&lt;/legend&gt;&lt;form&gt;
+            &lt;p&gt;write: &lt;input type=&quot;text&quot; value=&quot;abcd&quot; readonly/&gt;&lt;/p&gt;
+            &lt;p&gt;title: &lt;input type=&quot;text&quot;/&gt;&lt;/p&gt;
+            &lt;textarea cols=&quot;30&quot; rows=&quot;10&quot;&gt;&lt;/textarea&gt;
+            &lt;input type=&quot;submit&quot; value=&quot;ubit&quot;/&gt;
+            &lt;input type=&quot;reset&quot; value=&quot;reset&quot;/&gt;
+        &lt;/form&gt;
+    &lt;/fieldset&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<pre><code class="language-xml">
 &lt;html&gt;
 &lt;head&gt;
     &lt;style&gt;
