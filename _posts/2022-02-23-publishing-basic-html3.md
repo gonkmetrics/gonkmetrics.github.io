@@ -13,32 +13,32 @@ Three distinct concepts were covered:
 Additional Form Tags:
 There are also various form tags such as "slider", permutations of "date"/"time", and "color". Placeholder values, arguments such as *readonly* and general practice with HTML forms was completed today.
 
-<pre><code class="language-plaintext">
-<html>
-<head>
-    <style>
+<pre><code class="nohighlight">
+&lt;html&gt;
+&lt;head&gt;
+    &lt;style&gt;
         * { margin : 10px }
-    </style>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>formoption3</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
-</head>
-<body>
+    &lt;/style&gt;
+    &lt;meta charset=&apos;utf-8&apos;&gt;
+    &lt;meta http-equiv=&apos;X-UA-Compatible&apos; content=&apos;IE=edge&apos;&gt;
+    &lt;title&gt;formoption3&lt;/title&gt;
+    &lt;meta name=&apos;viewport&apos; content=&apos;width=device-width, initial-scale=1&apos;&gt;
+    &lt;link rel=&apos;stylesheet&apos; type=&apos;text/css&apos; media=&apos;screen&apos; href=&apos;main.css&apos;&gt;
+    &lt;script src=&apos;main.js&apos;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
     disabled:
-    <fieldset>
-        <legend>writing here:</legend><form>
-            <p>write: <input type="text" value="abcd" readonly/></p>
-            <p>title: <input type="text"/></p>
-            <textarea cols="30" rows="10"></textarea>
-            <input type="submit" value="ubit"/>
-            <input type="reset" value="reset"/>
-        </form>
-    </fieldset>
-</body>
-</html>
+    &lt;fieldset&gt;
+        &lt;legend&gt;writing here:&lt;/legend&gt;&lt;form&gt;
+            &lt;p&gt;write: &lt;input type=&quot;text&quot; value=&quot;abcd&quot; readonly/&gt;&lt;/p&gt;
+            &lt;p&gt;title: &lt;input type=&quot;text&quot;/&gt;&lt;/p&gt;
+            &lt;textarea cols=&quot;30&quot; rows=&quot;10&quot;&gt;&lt;/textarea&gt;
+            &lt;input type=&quot;submit&quot; value=&quot;ubit&quot;/&gt;
+            &lt;input type=&quot;reset&quot; value=&quot;reset&quot;/&gt;
+        &lt;/form&gt;
+    &lt;/fieldset&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </code></pre>
 
 ---
@@ -48,7 +48,7 @@ Groupings, or <div> tags, more generally, is a core concept in HTML. <div> tags 
 
 A default layout with groupings would be "header" -> "main" -> "footer", but any <div> tags can be assigned any unique values.
 
-<pre><code class="language-plaintext">
+<pre><code class="nohighlight">
 <!DOCTYPE html>
 <html>
 <head>
@@ -100,7 +100,7 @@ CSS can be incorporated within an HTML file, or outside of it. CSS within the bo
 
 An external CSS file can be linked to an HTML file as a stylesheet, or can be called within the <style> block.
 
-<pre><code class="language-plaintext">
+<pre><code class="nohighlight">
 <head>
     <link rel="stylesheet" href="externalcss.css">
 
@@ -127,7 +127,7 @@ An external CSS file can be linked to an HTML file as a stylesheet, or can be ca
 CSS Selections:
 This is where groupings come together with CSS. CSS can be applied to types/tags, to tags with argument [id="name"] referenced by # or [class="name"] referenced by '.'
 
-<pre><code class="language-plaintext">
+<pre><code class="nohighlight">
 <html>
 <head>
     <style>
