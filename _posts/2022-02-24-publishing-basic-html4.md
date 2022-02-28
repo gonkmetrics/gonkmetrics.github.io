@@ -1,6 +1,6 @@
 ## Basic HTML 4
 
-<img src="https://i.kym-cdn.com/entries/icons/mobile/000/027/880/jake.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+<img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/jake.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
 
 This session was packed with fun times trying to make highlight.js work for this blog, as well as figuring out if whitespaces were coming from block elements or dividers. Anyhow.
 
