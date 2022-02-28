@@ -76,7 +76,7 @@ h1:not(.header){
 </code></pre>
 
 Yielding the following result together with html code:
-<img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/CSSlayout1.jpg" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/CSSlayout1.png" style="display: block; margin-left: auto; margin-right: auto;">
 
 Floating blocks may potentially collapse, as is their intended behavior. To prevent this, there are three solutions:
 
