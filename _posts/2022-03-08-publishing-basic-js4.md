@@ -7,7 +7,7 @@ Today's session was spent on the basics of Javascript.
 
 ---
 
-#BOM:
+# BOM:
 
 The Browser Object Model organizes browser elements
 
@@ -20,8 +20,7 @@ Navigator Object:
 
 The navigator object gives information about the browser. Note the possible classes: appName, appVersion, userAgent, etc.
 
-<pre><code class="language-javascript">
-document.write("name"+navigator.appVersion+"<br>")
+<pre><code class="language-javascript">document.write("name"+navigator.appVersion+"<br>")
 OR
 document.write("name"+navigator.userAgent+"<br>")
 </code></pre>
@@ -38,13 +37,11 @@ Location Object:
 The location object gives information about the URL or current address.
 
 Either display information (such as URL) from the location object:
-<pre><code class="language-javascript">
-document.write("href: " + location.href + "<br>");
+<pre><code class="language-javascript">document.write("href: " + location.href + "<br>");
 </code></pre>
 
 Or change it; the below sets the URL to google.com, acting as a redirect.
-<pre><code class="language-javascript">
-location.href="https://www.google.com";
+<pre><code class="language-javascript">location.href="https://www.google.com";
 </code></pre>
 
 ---
@@ -54,8 +51,7 @@ Screen Object:
 The screen object gives information about the browser window.
 
 The below gives height and width. Can be used to dynamically change elements based on screen dimensions.
-<pre><code class="language-javascript">
-document.write(screen.availHeight);
+<pre><code class="language-javascript">document.write(screen.availHeight);
 document.write(screen.availWidth);
 </code></pre>
 
@@ -66,7 +62,7 @@ History Object:
 The history object is the record of pages visited in the browser.
 
 The .back, .forward, and .go(n) functions allow for the scripting to redirect to a previous or next page. Below, the buttons are set up to go to the next or last page.
-<pre><code class="language-javascript">
+<pre><code class="language-xml">
 <input type="button" value="previous page" onclick="history.back();" />
 <input type="button" value="next page" onclick="history.go(1);" />
 <input type="button" value="forward page" onclick="history.forward();" />
@@ -74,7 +70,7 @@ The .back, .forward, and .go(n) functions allow for the scripting to redirect to
 
 ---
 
-#DOM:
+# DOM:
 
 The Document Object Model deals with the document object within the browser, i.e. the HTML. The DOM is a tree hierarchy, with elements being relationally organized as parent-children.
 
@@ -104,6 +100,5 @@ var myList = document.getElementsByTagName("ul");
 //console.log(myList[1].firstChild);
 </code></pre>
 
----
 
 -gonkgonk
