@@ -9,7 +9,7 @@ Today's session was spent on the basics of Javascript.
 
 # BOM:
 
-The Browser Object Model organizes browser elements
+The Browser Object Model organizes browser elements:
 
 > BOM objects are the following: *window* and child objects document, navigator, location, screen, and history.
 >> BOM objects can be used as targets for functions: open, alert, prompt, confirm, setTimeout, setInterval.
