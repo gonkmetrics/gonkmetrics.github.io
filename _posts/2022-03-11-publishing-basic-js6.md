@@ -3,7 +3,7 @@
 Today's I used the JS library jQuery. This library extends the functionality of JS by simplifying DOM selections for HTML documents, along other features.
 
 The first step in using jQuery is to import it into a document. The easiest way to do this is to add the below referrer:
-<pre><code class="language-javascript"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<pre><code class="language-javascript">&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"&gt;&lt;/script&gt;
 </code></pre>
 
 This enables jQuery functionality in a document. Note that the script should be written in a separate &lt;script&gt; block for jQuery to work.
