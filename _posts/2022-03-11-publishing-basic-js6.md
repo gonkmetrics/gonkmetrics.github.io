@@ -1,6 +1,6 @@
 ## Basic Javascript 6
 
-Today's I used the JS library jQuery. This library extends the functionality of JS by simplifying DOM selections for HTML documents, along other features.
+Today I used the JS library jQuery. This library extends the functionality of JS by simplifying DOM selections for HTML documents, along other features.
 
 The first step in using jQuery is to import it into a document. The easiest way to do this is to add the below referrer:
 <pre><code class="language-javascript">&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"&gt;&lt;/script&gt;
