@@ -1,4 +1,4 @@
-## Basic Javascript 4
+## BOM/DOM Selections
 
 Today's session was spent on the basics of Javascript.
 

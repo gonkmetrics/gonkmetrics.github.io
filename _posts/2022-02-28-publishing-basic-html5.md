@@ -1,4 +1,4 @@
-## Basic HTML 5
+## HTML Floating Elements
 
 Today's session was spent on one concept, with most of the time being dedicated to prototyping.
 

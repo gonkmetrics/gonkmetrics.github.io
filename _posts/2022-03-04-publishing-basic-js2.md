@@ -1,4 +1,4 @@
-## Basic Javascript 2
+## JS Built-In Methodss
 
 Today's session was spent on the basics of Javascript.
 

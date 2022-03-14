@@ -1,4 +1,4 @@
-## Basic Javascript 1
+## Intro to JS
 
 #미완성 (3/4/22)
 

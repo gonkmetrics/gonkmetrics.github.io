@@ -1,4 +1,4 @@
-## Basic Javascript 3
+## JS Functions, Constructors, Events
 
 Today's session was spent on the basics of Javascript.
 

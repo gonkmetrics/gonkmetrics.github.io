@@ -1,4 +1,4 @@
-## Basic HTML 1
+## Intro to HTML
 
 For this session basic HTML was reviewed. VS was used as the IDE as opposed to Atom. Atom will probably still be used for the foreseeable future until I manage to connect VS to git.
 

@@ -1,4 +1,4 @@
-## Basic HTML 6
+## HTML Overflows and Positioning
 
 Today's session was spent on methods for layout and positioning.
 

@@ -1,4 +1,4 @@
-## Basic HTML 3
+## HTML Form Tags and Groupings
 
 For this session basic HTML was reviewed together with the beginnings of CSS.
 

@@ -1,4 +1,4 @@
-## Basic Javascript 5
+## DOM and Element Creation
 
 Today's session was spent on the last of the basics of Javascript.
 

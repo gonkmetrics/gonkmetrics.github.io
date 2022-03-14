@@ -1,4 +1,4 @@
-## Basic HTML 4
+## HTML CSS Selectors
 
 <img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/jake.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
 

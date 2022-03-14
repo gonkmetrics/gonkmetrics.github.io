@@ -1,4 +1,4 @@
-## Basic HTML 2
+## HTML List, Table Objects and Fieldsets
 
 For this session basic HTML was reviewed again.
 

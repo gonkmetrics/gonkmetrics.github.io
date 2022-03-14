@@ -1,4 +1,4 @@
-## MySQL - Functions
+## MySQL Introductory DML Functions
 
 For this session an overview of MySQL functions was reviewed.
 

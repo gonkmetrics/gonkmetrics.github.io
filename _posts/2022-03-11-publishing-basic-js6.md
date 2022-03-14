@@ -1,4 +1,4 @@
-## Basic Javascript 6
+## Intro to jQuery
 
 Today I used the JS library jQuery. This library extends the functionality of JS by simplifying DOM selections for HTML documents, along other features.
 

@@ -1,4 +1,4 @@
-## MySQL - Joining Tables Pt.1 ft. Blog Creation
+## MySQL Tables Manipulation ft. Blog Creation
 
 MySQL Workbench was used to verify queries before being pasted into the cli.
 
