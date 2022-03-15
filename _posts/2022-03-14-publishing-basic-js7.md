@@ -82,4 +82,25 @@ $("#btn4").parent().next().slideDown();
 });
 </code></pre>
 
+Fade In and Out Effects:
+<pre><code class="language-javascript">$("#btn8").click(function(){
+$("#btn8").parent().next().fadeIn();
+});
+$("#btn7").click(function(){
+$("#btn7").parent().next().fadeOut();
+});
+</code></pre>
+
+Fade Toggle Effect:
+<pre><code class="language-javascript">$("#btn9").click(function(){
+$("#btn9").parent().siblings().fadeToggle();
+});;
+</code></pre>
+
+FadeTo Effect:
+<pre><code class="language-javascript">$("#btn11").click(function(){
+$("#box3").fadeTo("SPEED", "OPACITY");
+});
+</code></pre>
+
 -gonkgonk
