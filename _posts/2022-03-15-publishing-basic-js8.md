@@ -6,6 +6,7 @@ JS's ECMAScript 6 revision has additional features over earlier revisions of JS 
 * let Keyword
 * const Keyword
 * Declaring Functions
+* Spread Function and Destructuring
 
 ---
 <br>
@@ -114,6 +115,33 @@ E.x. 2: Note the function receives *null*.
         *is shorthand for*
         var hello = function(){return "hello";}
 </code></pre>
+
+---
+<br>
+# Spread and Destructure
+
+The spread function [...] is useful in unpacking lists(arrays) in JS into a string.
+
+<pre><code class="language-javascript">        let numList = [1, 2, 3];
+        console.log(numList);
+        console.log(...numList);
+</code></pre>
+
+>Output:
+>>1, 2, 3
+>>1 2 3
+
+Destructuring expressions are an extension of this concept, allowing lists to be individually assigned to variables.
+
+<pre><code class="language-javascript">        const arr2 = [4, 5, 6];
+        const [four, five, six] = arr2;
+        console.log(four, five, six);
+</code></pre>
+
+>Output:
+>>4, 5, 6
+
+The variables *four*, *five*, and *six* are the variables in which the deconstructed elements of the array of stored in.
 
 
 -gonkgonk
