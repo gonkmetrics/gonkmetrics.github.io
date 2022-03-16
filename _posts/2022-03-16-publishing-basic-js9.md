@@ -29,11 +29,11 @@ Possible Bootstrap expressions include the following:
 Note, this is the intersection between pure CSS and other frameworks: both allow you to apply visual rules to elements in a document, therefore the best one to use is whatever is easier/faster/more legible.
 
 The 12 column element layout is strict, and it's width depends on the width of the container element.
-<img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/bootstrap1.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+<img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/bootstrap1.jpg" style="display: block; margin-left: auto; margin-right: auto;">
 
 Therefore, if an individual column is made wider, it may take space from the remaining grid elements.
 
-<img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/bootstrap2.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+<img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/bootstrap2.png" style="display: block; margin-left: auto; margin-right: auto;">
 
 The left element is 3 wide, right is 8 wide, with a [offset-1] forming the whitespace.
 
@@ -89,7 +89,7 @@ The below document makes use of all the above concepts. CSS is written inline bu
 </code></pre>
 
 Result:
-<img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/bootstrap3.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+<img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/bootstrap3.png" style="display: block; margin-left: auto; margin-right: auto;">
 
 Having elements with padding OR margins is possible with 12 full column elements, given the size of the spacing is smaller than the potential overlaps. Additionally, marginY and paddingY, along with height are useful in limiting the height of column elements, as the default is fit-to-parent.
 
