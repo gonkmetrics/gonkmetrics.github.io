@@ -18,7 +18,8 @@ Bootstrap provides additional functionality to HTML buttons. These can be implem
 </code></pre>
 
 Yields the results:
-<pre><code class="language-html"><!doctype html>
+<pre><code class="language-html">
+<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -37,6 +38,7 @@ Yields the results:
 
   </body>
 </html>
+
 </code></pre>
 
 ---
