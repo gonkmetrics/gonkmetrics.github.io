@@ -6,6 +6,8 @@ The JS Bootstrap framework is a framework that provides tools for web design.
 * Bootstrap Image Utils.
 * Bootstrap Dropdown Menus
 
+<br>
+
 ---
 # Bootstrap Buttons
 <br>
@@ -21,6 +23,7 @@ Bootstrap provides additional functionality to HTML buttons. These can be implem
 Yields the results:
 {% include A1_button.html %}
 <br>
+
 ---
 # Bootstrap Images
 <br>
@@ -30,9 +33,13 @@ Bootstrap provides additional formatting options for images.
 </code></pre>
 
 In the below image, a mock profile page was made, with the profile picture being an image inside a bootstrap grid element with *class="rounded"* applied.
+
 <br>
+
 <img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/bootstrap5.png" style="display: block; margin-left: auto; margin-right: auto;">
+
 <br>
+
 ---
 # Bootstrap Dropdown Menus
 <br>
@@ -79,6 +86,6 @@ Yields the result:
 
   </body>
 </html>
-
+<br>
 
 -gonkgonk
