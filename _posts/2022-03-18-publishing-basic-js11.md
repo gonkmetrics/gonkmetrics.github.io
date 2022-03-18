@@ -31,17 +31,15 @@ Bootstrap provides additional formatting options for images.
 <pre><code class="language-xml">    &lt;img src=&quot;../images/image.jpg&quot; alt=&quot;NAME&quot; class=&quot;ARGS: rounded/img-fluid/img-thumbnail/float&quot;&gt;
 </code></pre>
 
-<img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/bootstrap5.png" style="display: block; margin-left: auto; margin-right: auto;">
+In the below image, a mock profile page was made, with the profile picture being an image inside a bootstrap grid element with *class="rounded"* applied.
 
-Yields the results:
-<pre><code class="language-html">//EMBED INTERACTIVE ELEMENT
-</code></pre>
+<img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/bootstrap5.png" style="display: block; margin-left: auto; margin-right: auto;">
 
 ---
 <br>
 # Bootstrap Dropdown Menus
 
-Bootstrap can create interactive dropdown menus from list elements.
+Bootstrap can create interactive dropdown menus from list elements. Multiple arguments exist for structuring the dropdown menu.
 
 <pre><code class="language-xml">    &lt;div class=&quot;dropdown&quot;&gt;
       &lt;button class=&quot;btn btn-primary dropdown-toggle&quot; type=&quot;button&quot; data-bs-toggle=&quot;dropdown&quot;&gt;
