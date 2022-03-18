@@ -1,4 +1,4 @@
-## Intro to JS
+## Intro to JS - WIP
 
 #미완성 (3/4/22)
 
