@@ -7,38 +7,35 @@ The JS Bootstrap framework is a framework that provides tools for web design.
 * Bootstrap Dropdown Menus
 
 ---
-<br>
 # Bootstrap Buttons
-
+<br>
 Bootstrap provides additional functionality to HTML buttons. These can be implemented in three ways:
 
 <pre><code class="language-xml">    &lt;button type=&quot;button&quot; class=&quot;btn btn-ARGS:outline-ARGS:primary&quot;&gt;TEXT &lt;/button&gt;
     &lt;input type=&quot;button&quot; class=&quot;btn btn-ARGS:outline-ARGS:primary&quot; value=&quot;TEXT&quot;&gt;
     &lt;a href=&quot;#&quot; class=&quot;btn btn-ARGS:outline-ARGS:primary&quot; role=&quot;button&quot;&gt;TEXT &lt;/a&gt;
 </code></pre>
-
+<br>
 <img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/bootstrap4.png" style="display: block; margin-left: auto; margin-right: auto;">
-
+<br>
 Yields the results:
 {% include A1_button.html %}
-
----
 <br>
+---
 # Bootstrap Images
-
+<br>
 Bootstrap provides additional formatting options for images.
 
 <pre><code class="language-xml">    &lt;img src=&quot;../images/image.jpg&quot; alt=&quot;NAME&quot; class=&quot;ARGS: rounded/img-fluid/img-thumbnail/float&quot;&gt;
 </code></pre>
 
 In the below image, a mock profile page was made, with the profile picture being an image inside a bootstrap grid element with *class="rounded"* applied.
-
-<img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/bootstrap5.png" style="display: block; margin-left: auto; margin-right: auto;">
-
----
 <br>
+<img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/bootstrap5.png" style="display: block; margin-left: auto; margin-right: auto;">
+<br>
+---
 # Bootstrap Dropdown Menus
-
+<br>
 Bootstrap can create interactive dropdown menus from list elements. Multiple arguments exist for structuring the dropdown menu.
 
 <pre><code class="language-xml">    &lt;div class=&quot;dropdown&quot;&gt;
@@ -53,10 +50,9 @@ Bootstrap can create interactive dropdown menus from list elements. Multiple arg
       &lt;/ul&gt;
     &lt;/div&gt;
 </code></pre>
-
-Yields the results:
-{% include A1_dropdown.html %}
-
+<br>
+Yields the result:
+<br>
 <html lang="en">
   <body>
     <!-- Required meta tags -->
