@@ -20,8 +20,7 @@ Bootstrap provides additional functionality to HTML buttons. These can be implem
 <img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/bootstrap4.png" style="display: block; margin-left: auto; margin-right: auto;">
 
 Yields the results:
-<pre><code class="language-html">//EMBED INTERACTIVE ELEMENT
-</code></pre>
+{% include A1_button.html %}
 
 ---
 <br>
@@ -58,8 +57,7 @@ Bootstrap can create interactive dropdown menus from list elements.
 </code></pre>
 
 Yields the results:
-<pre><code class="language-html">//EMBED INTERACTIVE ELEMENT
-</code></pre>
+{% include A1_dropdown.html %}
 
 
 -gonkgonk
