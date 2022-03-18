@@ -12,42 +12,54 @@ The JS Bootstrap framework is a framework that provides tools for web design.
 
 Bootstrap provides additional functionality to HTML buttons. These can be implemented in three ways:
 
-<pre><code class="language-xml">    <button type="button" class="btn btn-ARGS:outline-ARGS:primary">TEXT </button>
-    <input type="button" class="btn btn-ARGS:outline-ARGS:primary" value="TEXT">
-    <a href="#" class="btn btn-ARGS:outline-ARGS:primary" role="button">TEXT </a>
+<pre><code class="language-xml">    &lt;button type=&quot;button&quot; class=&quot;btn btn-ARGS:outline-ARGS:primary&quot;&gt;TEXT &lt;/button&gt;
+    &lt;input type=&quot;button&quot; class=&quot;btn btn-ARGS:outline-ARGS:primary&quot; value=&quot;TEXT&quot;&gt;
+    &lt;a href=&quot;#&quot; class=&quot;btn btn-ARGS:outline-ARGS:primary&quot; role=&quot;button&quot;&gt;TEXT &lt;/a&gt;
 </code></pre>
 
+<img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/bootstrap4.png" style="display: block; margin-left: auto; margin-right: auto;">
+
 Yields the results:
-<pre><code class="language-html">
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-
-    <button type="button" class="btn btn-outline-primary">button .btn-outline-primary</button>
-    <input type="button" class="btn btn-warning" value="button .btn-warning">
-    <a href="#" class="btn btn-success" role="button">button .btn-success</a>
-
-
-  </body>
-</html>
-
+<pre><code class="language-html">//EMBED INTERACTIVE ELEMENT
 </code></pre>
 
 ---
 <br>
 # Bootstrap Images
 
+Bootstrap provides additional formatting options for images.
+
+<pre><code class="language-xml">    &lt;img src=&quot;../images/image.jpg&quot; alt=&quot;NAME&quot; class=&quot;ARGS: rounded/img-fluid/img-thumbnail/float&quot;&gt;
+</code></pre>
+
+<img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/bootstrap5.png" style="display: block; margin-left: auto; margin-right: auto;">
+
+Yields the results:
+<pre><code class="language-html">//EMBED INTERACTIVE ELEMENT
+</code></pre>
+
 ---
 <br>
 # Bootstrap Dropdown Menus
+
+Bootstrap can create interactive dropdown menus from list elements.
+
+<pre><code class="language-xml">    &lt;div class=&quot;dropdown&quot;&gt;
+      &lt;button class=&quot;btn btn-primary dropdown-toggle&quot; type=&quot;button&quot; data-bs-toggle=&quot;dropdown&quot;&gt;
+        Button Title
+      &lt;/button&gt;
+      &lt;ul class=&quot;dropdown-menu&quot;&gt;
+        &lt;li&gt;&lt;h6 class=&quot;dropdown-header&quot;&gt;Header 1&lt;/h6&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;hr class=&quot;dropdown-divider&quot;&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Element 1&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a class=&quot;dropdown-item disabled&quot; href=&quot;#&quot;&gt;Element 2 (Disabled)&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+</code></pre>
+
+Yields the results:
+<pre><code class="language-html">//EMBED INTERACTIVE ELEMENT
+</code></pre>
 
 
 -gonkgonk
