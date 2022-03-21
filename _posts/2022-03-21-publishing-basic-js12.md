@@ -112,9 +112,9 @@ Yields the result:
 Bootstrap provides graphical elements for navbars and some limited dynamic functionality for them.
 
 The syntax for a navbar is the following:
-<pre><code class="language-xml">     <ul class="nav nav-tabs/pills">
-         <li class="nav-item"><a class="nav-link" href="#">Elements...</a></li>
-     </ul>  
+<pre><code class="language-xml">     &lt;ul class=&quot;nav nav-tabs/pills&quot;&gt;
+         &lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;Elements...&lt;/a&gt;&lt;/li&gt;
+     &lt;/ul&gt;  
 </code></pre>
 <br>
 Navbars can be given some dynamic function by linking them to collapsing/fading/switching containers.
