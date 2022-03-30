@@ -1,6 +1,6 @@
-## Jakarta Server Pages - Expression Tag, Directive Tag, Inline Comments
+## Java Server Pages - Expression Tag, Directive Tag, Inline Comments
 
-Jakarta (form. Java) Server Pages is a framework used for web application development.
+Java (current. Jakarta) Server Pages is a framework used for web application development.
 
 This post will discuss:
 * Expression Tag

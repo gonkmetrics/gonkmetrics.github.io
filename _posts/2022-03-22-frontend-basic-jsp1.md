@@ -1,6 +1,6 @@
-## Jakarta Server Pages - Basic Terms, Related Tags (Scriplets and Declarations)
+## Java Server Pages - Basic Terms, Related Tags (Scriplets and Declarations)
 
-Jakarta (form. Java) Server Pages is a framework used for web application development.
+Java (current. Jakarta) Server Pages is a framework used for web application development.
 
 This post will discuss:
 * Basic Terms
