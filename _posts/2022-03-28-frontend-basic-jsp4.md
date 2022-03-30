@@ -6,13 +6,12 @@ This post will discuss:
 * Redirects
 * Cookies
 
-<br>
-
 ---
+<br>
 # Redirects
 <br>
 
-The *response* object has multiple methods for page response behavior.
+The *response* object has multiple methods for page response behavior.<br>
 
 >Methods for cookie object:
 >>setPath():
@@ -32,10 +31,14 @@ The *response* object has multiple methods for page response behavior.
 <br>getVersion():
 <br>Gets cookie version.
 
+<br>
+
 >*response.sendRedirect(URL)* can be assigned an absolute or relative address.
+
 <br>
 
 ---
+<br>
 # Cookies
 <br>
 
@@ -59,9 +62,10 @@ Cookies can be deleted after selection:
 A *for* loop may be used to select from an array of cookies, as multiple cookies may be used in a domain.
 
 <br>
-As the below diagram shows, cookies are stored locally for use by the servlet when responding to client requests. Any data (*fruit* in diagram) can be saved to the cookie.
+As the below diagram shows, cookies are stored locally for use by the servlet when responding to client requests. Any data (*fruit* in diagram) can be saved to the cookie.<br>
 <img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/jsp2.png" style="display: block; margin-left: auto; margin-right: auto;"><br>
 
+The cookie object supports the following methods:
 >Methods for cookie object:
 >>setPath():
 <br>Assigns path for cookie on server.

@@ -5,12 +5,10 @@ Java (current. Jakarta) Server Pages is a framework used for web application dev
 This post will discuss:
 * Request Object and Methods
 
-<br>
-
 ---
+<br>
 # Request Object
 <br>
-
 The request object in JSP is used for:
 
 <ol>
@@ -20,9 +18,10 @@ The request object in JSP is used for:
 <li>Reading the data on cookies</li>
 </ol>
 
-In other words, it deals with the interactions between a client and its server.
+In other words, it deals with the interactions between a client and its server.<br>
 <img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/jsp1.png" style="display: block; margin-left: auto; margin-right: auto;"><br>
 
+These are more general methods:
 >Methods for request object:
 >>getContextPath()
 <br>Gets the path for the request object.
@@ -59,7 +58,6 @@ The request object is called from inside the document. The input field must spec
 And can then be handled. The value of the request is saved to the defined variable.
 <pre><code class="language-java">String a = request.getParameter("abc");
 </code></pre><br>
-
 <br>
 
 -gonkgonk

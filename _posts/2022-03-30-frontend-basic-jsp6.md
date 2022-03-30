@@ -6,8 +6,6 @@ This post will discuss:
 * Application Object
 * HTTP Response Codes and Error Pages
 
-<br>
-
 ---
 <br>
 # Application Object
@@ -59,6 +57,6 @@ To redirect to any specific page beyond the server software's default, define th
 For the page that is landed on:
 <pre><code class="language-java"><%@ page isErrorPage="true">
 </code></pre>
-<br>ss
+<br>
 
 -gonkgonk

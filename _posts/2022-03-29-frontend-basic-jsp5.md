@@ -5,7 +5,6 @@ Java (current. Jakarta) Server Pages is a framework used for web application dev
 This post will discuss:
 * Session Object
 
-<br>
 ---
 <br>
 # Session
@@ -14,7 +13,7 @@ This post will discuss:
 Sessions are non-persistent objects that exist only when a browser session is active. They are implicit and thus do not need to be constructed unlike cookies. They can inherit values from the client if specified to do so as part of their attributes.
 
 <br>
-Cookies and Sessions have similar behavior, with one key difference. Sessions are *non-persistent* and *implicit*, meaning that they automatically are created and then destroyed with every new session of a browser.
+Cookies and Sessions have similar behavior, with one key difference. Sessions are *non-persistent* and *implicit*, meaning that they automatically are created and then destroyed with every new session of a browser.<br>
 <img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/jsp2.png" style="display: block; margin-left: auto; margin-right: auto;"><br>
 
 Sessions do not need to be constructed. Set the session attributes:
@@ -33,7 +32,9 @@ Other session methods can be used for misc. Functionality. The below page redire
 	}else if(get){
 		response.sendRedirect("session_login_ok.jsp");
 	}
+
 </code></pre>
+
 <br>
 
 >Methods for session object:
