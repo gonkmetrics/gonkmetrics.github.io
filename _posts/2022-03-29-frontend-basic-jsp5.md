@@ -37,21 +37,21 @@ Other session methods can be used for misc. Functionality. The below page redire
 <br>
 
 >Methods for session object:
->>setAttribute()
+>>setAttribute():
 <br>Sets session attributes.
-<br>getAttribute()
+<br>getAttribute():
 <br>Gets attributes.
-<br>getId
+<br>getId():
 <br>Gets the session's unique id.
-<br>getCreationTime()
+<br>getCreationTime():
 vGets the time at which the session was created.
-<br>getLastAccessedTime()
+<br>getLastAccessedTime():
 <br>Gets the last access time for the session.
-<br>set/getMaxInactiveInterval()
+<br>set/getMaxInactiveInterval():
 <br>Sets/gets the lifetime of the session once it is inactive.
-<br>removeAttribute()
+<br>removeAttribute():
 <br>Removes specified attribute.
-<br>invalidate()
+<br>invalidate():
 <br>Invalidates, "deletes" the session.
 
 <br>
