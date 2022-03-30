@@ -14,6 +14,24 @@ This post will discuss:
 
 The *response* object has multiple methods for page response behavior.
 
+>Methods for cookie object:
+>>setPath():
+<br>Assigns path for cookie on server.
+<br>setValue():
+<br>Assigns value field for cookie.
+<br>setVersion():
+<br>Assigns cookie version.
+<br>getMaxAge():
+<br>Assigns cookie lifespan.
+<br>getName():
+<br>Gets cookie name.
+<br>getPath():
+<br>Gets cookie path.
+<br>getValue():
+<br>Gets cookie value.
+<br>getVersion():
+<br>Gets cookie version.
+
 >*response.sendRedirect(URL)* can be assigned an absolute or relative address.
 <br>
 
@@ -36,7 +54,7 @@ Cookies are added:
 Cookies can be deleted after selection:
 <pre><code class="language-java">    		cookies[c].setMaxAge(0);
     		response.addCookie(cookies[c]);
-</code></pre>
+</code></pre><br>
 
 A *for* loop may be used to select from an array of cookies, as multiple cookies may be used in a domain.
 
@@ -45,23 +63,22 @@ As the below diagram shows, cookies are stored locally for use by the servlet wh
 <img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/jsp2.png" style="display: block; margin-left: auto; margin-right: auto;"><br>
 
 >Methods for cookie object:
->>setMaxAge(seconds)
-<br>setPath()
-Assigns path for cookie on server.
-<br>setValue()
-Assigns value field for cookie.
-<br>setVersion()
-Assigns cookie version.
-<br>getMaxAge()
-Assigns cookie lifespan.
-<br>getName()
-Gets cookie name.
-<br>getPath()
-Gets cookie path.
-<br>getValue()
-Gets cookie value.
-<br>getVersion()
-Gets cookie version.
+>>setPath():
+<br>Assigns path for cookie on server.
+<br>setValue():
+<br>Assigns value field for cookie.
+<br>setVersion():
+<br>Assigns cookie version.
+<br>getMaxAge():
+<br>Assigns cookie lifespan.
+<br>getName():
+<br>Gets cookie name.
+<br>getPath():
+<br>Gets cookie path.
+<br>getValue():
+<br>Gets cookie value.
+<br>getVersion():
+<br>Gets cookie version.
 
 <br>
 
