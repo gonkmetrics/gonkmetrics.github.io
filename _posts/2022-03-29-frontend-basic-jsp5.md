@@ -13,7 +13,7 @@ This post will discuss:
 Sessions are non-persistent objects that exist only when a browser session is active. They are implicit and thus do not need to be constructed unlike cookies. They can inherit values from the client if specified to do so as part of their attributes.
 
 <br>
-Cookies and Sessions have similar behavior, with one key difference. Sessions are *non-persistent* and *implicit*, meaning that they automatically are created and then destroyed with every new session of a browser.<br>
+Cookies and Sessions have similar behavior, with one key difference. Sessions are *non-persistent* and *implicit*, meaning that they automatically are created and then destroyed with every new session of a browser.<br><br>
 <img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/jsp2.png" style="display: block; margin-left: auto; margin-right: auto;"><br>
 
 Sessions do not need to be constructed. Set the session attributes:
@@ -25,14 +25,13 @@ Session values can be grabbed. They are by default type *object*:
 </code></pre>
 <br>
 Other session methods can be used for misc. Functionality. The below page redirects if the session is null and kicks out logged in users by parsing for an existing attribute name.
-<pre><code class="language-java">    String userId = (String)session.getAttribute("s_id");
-    Enumeration<String> attNames = session.getAttributeNames();
+<pre><code class="language-xml">    String userId = (String)session.getAttribute(&quot;s_id&quot;);
+    Enumeration&lt;String&gt; attNames = session.getAttributeNames();
     boolean get = attNames.hasMoreElements();
 	if(userId!=null){
 	}else if(get){
-		response.sendRedirect("session_login_ok.jsp");
+		response.sendRedirect(&quot;session_login_ok.jsp&quot;);
 	}
-
 </code></pre>
 
 <br>
