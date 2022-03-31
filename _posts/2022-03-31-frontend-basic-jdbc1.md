@@ -24,13 +24,13 @@ Returns the interface *Driver* associated with the contained parameter.
 Create the object *Connection* to handle the connection with the DB.
 <pre><code class="language-java">Connection con = DriverManager.getConnection("jdbc:mysql://address:port/schema?serverTimezone=UTC","username","password");
 </code></pre><br>
-Create the object Statement to handle commands written in Java.
+Create the object *Statement* to handle commands written in Java.
 <pre><code class="language-java">Statement statementA = con.createStatement();
 </code></pre><br>
-Create the ResultSet object, which contains the table with the queried data.
+Create the *ResultSet* object, which contains the table with the queried data.
 <pre><code class="language-java">ResultSet resultSet = statementA.executeQuery("QUERY");
 </code></pre><br>
-The .next method both moves to the next row in the table, while also functioning as a conditional, where *true* if the next row exists and *false* when it does not.
+The *.next* method both moves to the next row in the table, while also functioning as a conditional, where *true* if the next row exists and *false* when it does not.
 <pre><code class="language-java">resultSet.next();
 OR
 statement(resultSet.next()){
