@@ -14,7 +14,7 @@ The libraries associated with connecting to the DB must be installed in order fo
 
 <br>
 JDBC allows the client running Java to interface with a DB. The parameters specify a MySQL (com.mysql) & (jdbc:mysql) DB will be accessed.
-<img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/jdbc1.png" style="display: block; margin-left: auto; margin-right: auto;"><br>
+<img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/jdbc1.png" style="display: block; margin-left: auto; margin-right: auto; border: 1px solid black;s"><br>
 
 JDBC commands can be executed within a try-catch block as SQL exceptions are checked exceptions - so it's easier to figure what goes wrong w/ then.
 
