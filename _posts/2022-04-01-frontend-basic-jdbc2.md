@@ -52,6 +52,7 @@ SQL statements can be precompiled. *.setObject* methods can be used to set value
 Query has syntax:
 <pre><code class="language-sql">STATEMENT FROM table WHERE attribute = ?
 </code></pre><br>
+Java syntax:
 <pre><code class="language-java">PreparedStatement pS = con.prepareStatement(QUERY);
 //set value for attributes
 pS.setString(1, value);
