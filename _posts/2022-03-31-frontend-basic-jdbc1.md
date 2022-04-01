@@ -1,42 +1,62 @@
-## Java Database Connectivity - Basics 1
+## Java Database Connectivity - Basics 2
 
-JDBC is an API that allows access to databases from clients using the Java language. It relies on the specific Connector to be available from the DB.
+JDBC is an API that allows access to databases from clients using the Java language.
 
 This post will discuss:
-* DriverManager Interface/Connection/Statement/ResultSet Objects and Methods
+* Example Queries
+* PreparedStatement Object
 
 ---
-<br>
-# JDBC Functionality
+
+# Example Queries
 <br>
 
-The libraries associated with connecting to the DB must be installed in order for it to be usable. Connector/J is the one used with JDBC.
-
+Queries can be initialized to variables to receive their return values or can be executed standalone with the methods:
 <br>
-JDBC allows the client running Java to interface with a DB. The parameters specify a MySQL (com.mysql) & (jdbc:mysql) DB will be accessed.
-<img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/jdbc1.png" style="display: block; margin-left: auto; margin-right: auto; border: 1px solid black;s"><br>
 
-JDBC commands can be executed within a try-catch block as SQL exceptions are checked exceptions - so it's easier to figure what goes wrong w/ then.
+Executes a DDL statement (CREATE, USE) with *bool* return:
+<pre><code class="language-java">bool rSetPossible = statement.execute(QUERY);
+</code></pre><br>
+Executes DML statements (INSERT, UPDATE, DELETE) with *int* return specifying the number of manipulated rows:
+<pre><code class="language-java">int row = statement.executeUpdate(QUERY);
+</code></pre><br>
+Executes statements that return data (SELECT) with return to a ResultSet:
+<pre><code class="language-java">ResultSet rS= statement.executeQuery(QUERY);
+</code></pre><br>
 
-Returns the interface *Driver* associated with the contained parameter.
-<pre><code class="language-java">Class.forName("com.mysql.cj.jdbc.Driver");
+String form (for reference):
+
+DELETE
+<pre><code class="language-java">String ins = "DELETE FROM userinfo WHERE user_id='"+userId+"'";
+				stmt.executeUpdate(ins);
 </code></pre><br>
-Create the object *Connection* to handle the connection with the DB.
-<pre><code class="language-java">Connection con = DriverManager.getConnection("jdbc:mysql://address:port/schema?serverTimezone=UTC","username","password");
+
+INSERT
+<pre><code class="language-java">String ins = "INSERT INTO userinfo VALUES ('"+userId+"','"+userPw+"','"+userName+"','"+userEmail+"')";
+			stmt.executeUpdate(ins);
 </code></pre><br>
-Create the object *Statement* to handle commands written in Java.
-<pre><code class="language-java">Statement statementA = con.createStatement();
+
+UPDATE
+<pre><code class="language-java">String ins = "UPDATE userinfo SET user_id='"+userId+"', user_pw='"+userPw+"', user_name='"+userName+"', email='"+userEmail+"' WHERE user_id='"+originalUserId+"'";
+			stmt.executeUpdate(ins);
 </code></pre><br>
-Create the *ResultSet* object, which contains the table with the queried data.
-<pre><code class="language-java">ResultSet resultSet = statementA.executeQuery("QUERY");
-</code></pre><br>
-The *.next* method both moves to the next row in the table, while also functioning as a conditional, where *true* if the next row exists and *false* when it does not.
-<pre><code class="language-java">resultSet.next();
-OR
-statement(resultSet.next()){
-  ...
-}
-</code></pre>
+
+---
+
+# PreparedStatement Object
 <br>
+
+SQL statements can be precompiled. *.setObject* methods can be used to set values for parameters marked with **?** that are indexed from n=1. The type of specified object determines the datatype of the inserted value.
+<br>
+
+Query has syntax:
+<pre><code class="language-sql">STATEMENT FROM table WHERE attribute = ?
+</code></pre><br>
+<pre><code class="language-java">PreparedStatement pS = con.prepareStatement(QUERY);
+//set value for attributes
+pS.setString(1, value);
+//execute
+pS.execute();
+</code></pre><br>
 
 **-gonkgonk**
