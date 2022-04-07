@@ -33,7 +33,7 @@ DAOs are objects that hold tables from databases. Their value lies in their abil
 The DAO class can conveniently include the methods and constructors needed to perform CRUD on a table. Therefore, connections and queries are written as part of the DAO, such that when methods and constructors from DAO are called, they are imported and executed from that class.
 
 The DAO class is structured as such:
-<pre><code class="language-java">public class DAO{
+<pre><code class="language-xml">public class DAO{
   private Variables;
   ...
 
