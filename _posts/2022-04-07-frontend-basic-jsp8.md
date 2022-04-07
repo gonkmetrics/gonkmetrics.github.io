@@ -16,7 +16,7 @@ As explored previously:
 <pre><code class="language-java">UserVO user = new UserVO();
 //goes to bean in src
 bean.setterMethod(resultSet.getString(index));
-</code></pre><br>
+</code></pre>
 
 The VO itself is constructed and its getter/setters called. In any case, the VO exists as an object with the sole purpose of holding values from a table. It holds a single row.
 
@@ -59,13 +59,15 @@ The DAO class is structured as such:
     return listVO;
   }
 }
-</code></pre><br>
+
+</code></pre>
 
 Now that a DAO class exists, we can call it wherever its needed.
 
 <pre><code class="language-java">DAO dao = new DAO(); //default constructor with commands executed
 List<VO> listFromTable = dao.getAllVO(); //method from class DAO. no parameters
-</code></pre><br>
+
+</code></pre>
 
 Now a list with VOs from a table exists in the environment where the above code was executed.
 
