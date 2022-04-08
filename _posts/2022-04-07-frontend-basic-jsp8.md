@@ -33,13 +33,11 @@ DAOs are objects that hold tables from databases. Their value lies in their abil
 The DAO class can conveniently include the methods and constructors needed to perform CRUD on a table. Therefore, connections and queries are written as part of the DAO, such that when methods and constructors from DAO are called, they are imported and executed from that class.
 
 The DAO class is structured as such:
-<pre><code class="language-xml">public class DAO{
+>>public class DAO{
   private Variables;
-
   public DAO{
     Class.forName(dbInfo);
   }
-
   //the below method creates a list that contains VO objects with values from a table
   public List<VO> getAllVO(){
     Connection con = null;
@@ -48,7 +46,6 @@ The DAO class is structured as such:
     List<VO> listVO = new ArrayList<>();
     String query = "query";
     try{
-
     }catch(Exception e){} finally{
       con.close();
       pSt.close();
@@ -58,8 +55,6 @@ The DAO class is structured as such:
     return listVO;
   }
 }
-
-</code></pre>
 
 Now that a DAO class exists, we can call it wherever its needed.
 
