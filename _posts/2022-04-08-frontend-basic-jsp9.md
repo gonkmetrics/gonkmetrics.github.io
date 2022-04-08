@@ -18,14 +18,11 @@ First, a page that displays a table containing information from the SQL query:
 
 The previously seen code is written in the DAO class:
 >>highlightjs is broken:
-
 public class DAO{
   private Variables;
-
   public DAO{
     Class.forName(dbInfo);
   }
-
   //the below method creates a list that contains VO objects with values from a table
   public List<VO> getAllVO(){
     Connection con = null;
@@ -34,7 +31,6 @@ public class DAO{
     List<VO> listVO = new ArrayList<>();
     String query = "query";
     try{
-
     }catch(Exception e){} finally{
       con.close();
       pSt.close();
