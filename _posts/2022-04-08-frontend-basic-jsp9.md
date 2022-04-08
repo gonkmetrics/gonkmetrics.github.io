@@ -17,9 +17,9 @@ First, a page that displays a table containing information from the SQL query:
 </code></pre><br>
 
 The previously seen code is written in the DAO class:
-<pre><code class="language-java">public class DAO{
+<pre><code class="language-java">
+public class DAO{
   private Variables;
-  ...
 
   public DAO{
     Class.forName(dbInfo);
@@ -31,7 +31,7 @@ The previously seen code is written in the DAO class:
     PreparedStatement pSt = null;
     ResultSet rSt = null;
     List<VO> listVO = new ArrayList<>();
-    String query = "query...";
+    String query = "query";
     try{
 
     }catch(Exception e){} finally{
@@ -43,8 +43,8 @@ The previously seen code is written in the DAO class:
     return listVO;
   }
 }
-
 </code></pre>
+
 <br>
 
 And called in the JSP page:
