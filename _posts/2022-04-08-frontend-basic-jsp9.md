@@ -17,7 +17,8 @@ First, a page that displays a table containing information from the SQL query:
 </code></pre><br>
 
 The previously seen code is written in the DAO class:
-<pre><code class="language-java">
+>>highlightjs is broken:
+
 public class DAO{
   private Variables;
 
@@ -43,7 +44,7 @@ public class DAO{
     return listVO;
   }
 }
-</code></pre>
+
 
 <br>
 
