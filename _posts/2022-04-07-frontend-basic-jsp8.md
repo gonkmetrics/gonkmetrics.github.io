@@ -1,4 +1,4 @@
-## Java Server Pages - Applying VO, DAO
+## Java Server Pages - Applying VO, DAO 1
 
 In application development, common design challenges can be tackled using software design patterns.
 
@@ -35,7 +35,6 @@ The DAO class can conveniently include the methods and constructors needed to pe
 The DAO class is structured as such:
 <pre><code class="language-xml">public class DAO{
   private Variables;
-  ...
 
   public DAO{
     Class.forName(dbInfo);
@@ -47,7 +46,7 @@ The DAO class is structured as such:
     PreparedStatement pSt = null;
     ResultSet rSt = null;
     List<VO> listVO = new ArrayList<>();
-    String query = "query...";
+    String query = "query";
     try{
 
     }catch(Exception e){} finally{
