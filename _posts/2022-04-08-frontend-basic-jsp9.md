@@ -72,7 +72,7 @@ for(UserVO board : userList){ %&gt;
 </code></pre>
 <br>
 
-<img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/jsp4.png" style="display: block; margin-left: auto; margin-right: auto;"><br>
+<img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/jsp4.jpg" style="display: block; margin-left: auto; margin-right: auto;"><br>
 
 Avoiding scriptlets, the below JSTL code is identical in function:
 </code></pre>
@@ -126,7 +126,7 @@ Note that while the comparison logic remains the same, the data (business-side) 
 <br>
 
 An unrelated use of the patterns can also be seen in the below diagram (including code):
-<img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/jsp5.png" style="display: block; margin-left: auto; margin-right: auto;"><br>
+<img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/jsp5.jpg" style="display: block; margin-left: auto; margin-right: auto;"><br>
 
 
 **-gonkgonk**
