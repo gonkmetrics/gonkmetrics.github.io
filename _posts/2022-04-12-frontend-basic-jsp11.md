@@ -18,7 +18,9 @@ EL supports the following types:
 - Parameters, of defined Scope or otherwise
 - Implicit objects in pageContext
 - Methods within Scope
+
 <br>
+
 Most common functions, declarations, initializations, etc. cannot be executed within EL tags. EL should only be used to set/get data and execute methods that return data. Other logic should be executed within beans, then offloaded to the view component.
 
 <br>
@@ -57,7 +59,6 @@ For statement. If the condition is true, code within the tags is continuously pa
 &lt;c:forEach items=&quot;LIST&quot; var=&quot;OBJ&quot;&gt;&lt;c:forEach&gt;
 </code></pre>
 <br>
-
 JSTL has the above core tags, but its functionality can be extended with other components of the JSTL library, such as *fn* functions.
 
 
