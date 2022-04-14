@@ -9,7 +9,7 @@ This post will discuss:
 # A Brief Reminder
 
 GET and POST request methods are illustrated in the below diagram. They are the method by which the servlet can provide responses to requests from the client.
-<img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/jsp7.jpg" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="https://raw.githubusercontent.com/gonkmetrics/gonkmetrics.github.io/main/_posts/_img/jsp8.jpg" style="display: block; margin-left: auto; margin-right: auto;">
 <br>
 
 <br>
