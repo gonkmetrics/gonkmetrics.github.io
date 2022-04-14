@@ -13,6 +13,7 @@ GET and POST request methods are illustrated in the below diagram. They are the 
 <br>
 
 <br>
+---
 # Testing a Servlet with forms
 <br>
 
